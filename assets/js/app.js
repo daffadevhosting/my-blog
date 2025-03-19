@@ -15,7 +15,7 @@ firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 const auth = firebase.auth();
 
-const adminEmail = "admin@example.com"; // Ganti dengan email admin
+const adminEmail = "admin@dev.id"; // Ganti dengan email admin
 
 // Cek status login
 auth.onAuthStateChanged((user) => {
