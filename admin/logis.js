@@ -1,11 +1,13 @@
 // Konfigurasi Firebase
 const firebaseConfig = {
-    apiKey: "API_KEY",
-    authDomain: "PROJECT_ID.firebaseapp.com",
-    projectId: "PROJECT_ID",
-    storageBucket: "PROJECT_ID.appspot.com",
-    messagingSenderId: "SENDER_ID",
-    appId: "APP_ID"
+  apiKey: "AIzaSyA3ra4E7chQhRzERyKW2aFUTRULMb10vxM",
+  authDomain: "blogdaffadev.firebaseapp.com",
+  projectId: "blogdaffadev",
+  databaseURL: "https://blogdaffadev-default-rtdb.asia-southeast1.firebasedatabase.app",
+  storageBucket: "blogdaffadev.firebasestorage.app",
+  messagingSenderId: "489703180131",
+  appId: "1:489703180131:web:4383f5ef04c1d414ce3556",
+  measurementId: "G-ZWW4K4NVQ6"
   };
   
   // Inisialisasi Firebase
