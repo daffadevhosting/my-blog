@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Firebase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Blog Firebase</h1>
+
+    <div id="auth">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginBtn">Login</button>
+        <button id="logoutBtn" style="display: none;">Logout</button>
+    </div>
+
+    <form id="postForm" style="display: none;">
+        <input type="text" id="title" placeholder="Judul" required>
+        <textarea id="content" placeholder="Isi konten" required></textarea>
+        <button type="submit">Tambah Post</button>
+    </form>
+
+    <h2>Postingan</h2>
+    <div id="posts"></div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
