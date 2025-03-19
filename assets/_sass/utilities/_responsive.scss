@@ -1,0 +1,13 @@
+@use "abstracts/mixins";
+
+@include mixins.responsive(mobile) {
+  .container {
+    width: 95%;
+  }
+}
+
+@include mixins.responsive(tablet) {
+  .container {
+    width: 85%;
+  }
+}

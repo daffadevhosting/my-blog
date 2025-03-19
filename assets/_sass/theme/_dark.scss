@@ -1,0 +1,10 @@
+@use "abstracts/variables";
+
+.dark-mode {
+  background: #222;
+  color: #eee;
+
+  .header, .footer {
+    background: #444;
+  }
+}
