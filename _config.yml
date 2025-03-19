@@ -73,3 +73,14 @@ kramdown:
 # Mode Server
 port: 4000
 host: 0.0.0.0
+
+# Google Auth
+
+apiKey: AIzaSyA3ra4E7chQhRzERyKW2aFUTRULMb10vxM
+authDomain: blogdaffadev.firebaseapp.com
+projectId: blogdaffadev
+storageBucket: blogdaffadev.firebasestorage.app
+databaseURL: https://blogdaffadev-default-rtdb.asia-southeast1.firebasedatabase.app
+messagingSenderId: 489703180131
+appId: 1:489703180131:web:4383f5ef04c1d414ce3556
+measurementId: G-ZWW4K4NVQ6
